@@ -1,0 +1,57 @@
+name: Quizcupv2
+version: '${project.version}'
+main: de.zblubba.quizcupv2.Quizcupv2
+api-version: 1.18
+authors: [ zBlubba ]
+description: QuizCup V2 Plugin für das Drachen Kult Event
+website: https://zblubba.de
+
+commands:
+  addfrage:
+    description: fügt eine Frage hinzu
+  addantwort:
+    description: fügt eine Antwort hinzu
+  startfrage:
+    description: startet eine Frage
+  chat:
+    description: öffnet oder schließt den Chat
+  spawn:
+    description: teleportiert dich zum Spawn
+  gates:
+    description: öffnet das gui für die gates
+  admin:
+    description: öffnet das Admin-Gui für viele Einstellungen
+  state:
+    description: öffnet oder schließt den Server
+  tools:
+    description: öffnet das GUI für die Tools
+  zumstart:
+    description: alamiert alle Spieler zum Start zu laufen
+  gate:
+    description: öffnet oder schließt das jeweilige Gate
+  start:
+    description: starting the server
+  winner:
+    description: Fügt die Punkte zu den Gewinnern hinzu
+  invis:
+    description: steuert die Sichtbarkeit aller Spieler
+  kicK:
+    description: scheidet leute aus
+  finalkick:
+    description: kickt alle Spieler unter einer bestimmten Anzahl an Punkten
+  getpoints:
+    description: Erhält die Spieler mit Punkten
+  startmultiplefrage:
+    description: startet eine finale Frage
+  setfinal:
+    description: setzt die Finalen Spieler
+  setantwort:
+    description: setzt eine Antwort
+  finalwinner:
+    description: setzt die richtige Antwort für das Finale
+  points:
+    description: setzt oder fügt Punkte hinzu
+  b:
+    description: buzzer
+  tablequestion:
+    description: öffnet das Inventar
